@@ -1,0 +1,85 @@
+/* Sidebar.module.css */
+.sidebar {
+  position: fixed; /* Keep the sidebar fixed */
+  top: 0;
+  left: 0;
+  width: 250px; /* Fixed width for the sidebar */
+  height: 100vh; /* Ensure sidebar takes full height of the viewport */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure sidebar stays on top */
+}
+
+.sidebar h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.sidebar ul li a:hover {
+  color: #ef5427; /* Accent color on hover */
+}
+
+.addRestaurantButtonContainer {
+  margin-top: 20px;
+}
+
+.addRestaurantButton {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #86ba4a; /* Green button color */
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.addRestaurantButton:hover {
+  background-color: #ef5427; /* Hover color for the button */
+}
+
+/* .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+} */
+/* 
+.container {
+  position: relative;
+  padding: 20px;
+} */
